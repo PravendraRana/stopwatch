@@ -35,8 +35,8 @@ const Stopwatch = () => {
     return (
         <div style={{ border: "2px solid black", padding: "20px", borderRadius: "10px", width: "200px", margin: "20px auto" }}>
             <h1>Stopwatch</h1>
-            <p>Time:{formateTime(time)}</p>
-            <button onClick={startStop}>{isRunning ? "stop" : "start"}</button>
+            <p>Time: {formateTime(time)}</p>
+            <button onClick={startStop}>{isRunning ? "Stop" : "Start"}</button>
             <button onClick={reset}>Reset</button>
         </div>
     );
